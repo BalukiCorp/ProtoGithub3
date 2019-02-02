@@ -1,5 +1,7 @@
 {
   "name": "ProtoGithub3",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
