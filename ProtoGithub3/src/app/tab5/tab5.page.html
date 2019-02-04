@@ -1,42 +1,83 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title text center class="title">Perfil</ion-title>
-  </ion-toolbar>
-</ion-header>
+  <ion-toolbar color= primary>
+      <ion-title primary>Perfil</ion-title>
+      <ion-buttons slot="secondary">
+        <ion-button>
+          <ion-icon slot="icon-only" name="calendar"></ion-icon>
+        </ion-button>
+      </ion-buttons>
+      <ion-buttons slot="secondary">
+        <ion-button>
+          <ion-icon  slot="icon-only" name="settings"></ion-icon>
+        </ion-button>
+      </ion-buttons>
+      
+    </ion-toolbar>
+</ion-header>  
 
 <ion-content padding>
 
   <!--Pagina-->
   <ion-row>
-    
+
       <!--Imagen de Perfil-->
       <ion-avatar class="profile">
         <img src="../../assets/IMG-20160313-WA005.jpg">
       </ion-avatar>
       
+
       <!--Muestra de tu puntaje-->
-      <label for="puntacion">Puntacion</label>
+
+        <ion-col col-4 text-center >
+          <h6 class="Puntacion">Puntacion</h6>
+          <p no-padding no-margin>565 pt</p>
+        </ion-col>
+      
+
+      <!--Muestra los eventos asistidos-->
+        <ion-col col-4 text-center >
+          <h6 class="Eventos"> Eventos</h6>
+          <p no-paddin no-margin>5</p>
+        </ion-col>
+
         <!--Nombre de la Cuenta-->
-        <ion-card-title text-center>
-          Cesar Josue Vargas
-        </ion-card-title>
+        
+        <ion-col col-4 text-left >
+            <h4 class="Eventos"> Josue Vargas</h4>
+        </ion-col>
 
       <ion-row>
+
+          <ion-col col-4 text-center >
+              <h6 class="Eventos">Fiestas</h6>
+          </ion-col>
+          <ion-col col-4 text-center >
+              <h6 class="Eventos">Educacion</h6>
+          </ion-col>
+          <ion-col col-4 text-center >
+              <h6 class="Eventos">Conciertos</h6>
+          </ion-col>
+
         
-        
+        <ion-col col-4 text-center >
           <ion-card class="card">
-                <img class="img" src="../../assets/icono_beer.png"/>
+             <img class="img" src="../../assets/icono_beer.png"/>
           </ion-card>
-        
+        </ion-col>
 
-        <ion-card class="card">
+        <ion-col col-4 text-center >
+          <ion-card class="card">
             <img class="img" src="../../assets/icono_libro.jpg"/>
-        </ion-card>
-
+          </ion-card>
+        </ion-col>
+        
         <ion-card class="card">
             <img class="img" src="../../assets/icono_ticket.png"/>
         </ion-card>
+
+        
       </ion-row>
+
 
 
   </ion-row>

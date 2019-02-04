@@ -1,27 +1,33 @@
 tab-tab5{
 
-    .title{
-        background-color: #FA8072;
-        color: white;
-        font-style: inherit;
-        font-size:1.2em;
-    }
+   
 
     
     
 }
 
-
+//Avatar
 .profile{
-    width: 100px;
+    width: 95px;
     height: 95px;
     margin: left;
     background-image: grey;
 
 }
 
-.labels{
-    margin: right ;
+//label de Puntacion
+.Puntacion{
+
+    color: black; 
+    font-weight: bold;
+    
+}
+
+.Eventos{
+   
+    color: black; 
+    font-weight: bold; 
+  
 }
 
 .card{
@@ -41,3 +47,4 @@ tab-tab5{
 .boton{
     border-radius:5px;
 }
+
