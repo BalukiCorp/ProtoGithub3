@@ -26,60 +26,91 @@
       </ion-avatar>
       
 
-      <!--Muestra de tu puntaje-->
-
-        <ion-col col-4 text-center >
-          <h6 class="Puntacion">Puntacion</h6>
-          <p no-padding no-margin>565 pt</p>
-        </ion-col>
+      
+      
+        <div>
+          <!--Muestra de tu puntaje-->
+          <div class="divpunta"> 
+            <ion-col col-4 text-center >
+              <h6 class="Puntacion">Puntacion</h6>
+              <p no-padding no-margin>565 pt</p>
+            </ion-col>
+          </div>
+           <!--Muestra los eventos asistidos-->
+          <div class="divpunta">
+            <ion-col col-4 text-center>
+              <h6 class="Eventos"> Eventos</h6>
+              <p no-paddin no-margin>5</p>
+            </ion-col>
+          </div>
+        </div>
+        
       
 
-      <!--Muestra los eventos asistidos-->
-        <ion-col col-4 text-center >
-          <h6 class="Eventos"> Eventos</h6>
-          <p no-paddin no-margin>5</p>
-        </ion-col>
+      
 
         <!--Nombre de la Cuenta-->
-        
-        <ion-col col-4 text-left >
+        <div>
+          <ion-col col-4 text-left >
             <h4 class="Eventos"> Josue Vargas</h4>
-        </ion-col>
-
-      <ion-row>
-
-          <ion-col col-4 text-center >
-              <h6 class="Eventos">Fiestas</h6>
           </ion-col>
-          <ion-col col-4 text-center >
-              <h6 class="Eventos">Educacion</h6>
-          </ion-col>
-          <ion-col col-4 text-center >
-              <h6 class="Eventos">Conciertos</h6>
-          </ion-col>
-
+        </div>
         
-        <ion-col col-4 text-center >
-          <ion-card class="card">
-             <img class="img" src="../../assets/icono_beer.png"/>
-          </ion-card>
-        </ion-col>
 
-        <ion-col col-4 text-center >
-          <ion-card class="card">
-            <img class="img" src="../../assets/icono_libro.jpg"/>
-          </ion-card>
-        </ion-col>
-        
-        <ion-card class="card">
-            <img class="img" src="../../assets/icono_ticket.png"/>
-        </ion-card>
+        <!--Niveles en cada Categoria-->
+      <div class="scrolling-wrapper">
+        <div class="card"><h6>Festivales</h6><img class="img" src="../../assets/icono_beer.png"/>
+          <div class="progress">
+          </div><h6>Nivel 1</h6></div>
+        <div class="card"><h6>Educacion</h6><img class="img" src="../../assets/icono_libro.jpg"/>
+          <div class="progress">
+        </div><h6>Nivel 1</h6></div>
+        <div class="card"><h6>Conciertos</h6><img class="img" src="../../assets/icono_ticket.png"/>
+          <div class="progress">
+          </div><h6>Nivel 1</h6></div>
+        <div class="card"><h6>Emprendimiento</h6><img class="img" src="../../assets/icono_emprendimiento.png"/>
+          <div class="progress">
+          </div><h6>Nivel 1</h6></div>
+        <div class="card"><h6>Gastronomia</h6><img class="img" src="../../assets/icono_gastronomia.png"/>
+          <div class="progress">
+          </div><h6>Nivel 1</h6></div>
+        <div class="card"><h6>Cultura</h6><img class="img" src="../../assets/icono_cultura.png"/>
+          <div class="progress">
+          </div><h6>Nivel 1</h6></div>
+        <div class="card"><h6>Fiestas</h6><img class="img" src="../../assets/icono_fiesta.png"/>
+          <div class="progress">
+          </div><h6>Nivel 1</h6></div>
+        <div class="card"><h6>Arte</h6><img class="img" src="../../assets/icono_arte.png"/>
+          <div class="progress">
+          </div><h6>Nivel 1</h6></div>
+        <div class="card"><h6>Deporte</h6><img class="img" src="../../assets/icono_deporte.jpg"/>
+          <div class="progress">
+          </div><h6>Nivel 1</h6></div>
+        <div class="card"><h6>Promociones</h6><img class="img" src="../../assets/icono_promociones.png"/>
+          <div class="progress">
+          </div><h6>Nivel 1</h6></div>
+      </div>
 
-        
-      </ion-row>
-
-
+      
 
   </ion-row>
+
+  <div>
+      <h2><b>Eventos Asistidos</b></h2>
+  </div>
+
+  
+      <ion-card class="welcome-card">
+          <img src="../../assets/foto_prueba.jpg"/>
+          <ion-card-header>
+            <ion-card-subtitle>Josue Vargas</ion-card-subtitle>
+            <ion-card-title>Proyecto X</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            <p>Now that your app has been created, you'll want to start building out features and components. Check out some of the resources below for next steps.</p>
+          </ion-card-content>
+      </ion-card>
+
+ 
 
 </ion-content>

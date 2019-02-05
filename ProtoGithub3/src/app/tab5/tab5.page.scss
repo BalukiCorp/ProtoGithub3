@@ -8,8 +8,8 @@ tab-tab5{
 
 //Avatar
 .profile{
-    width: 95px;
-    height: 95px;
+    width: 90px;
+    height: 90px;
     margin: left;
     background-image: grey;
 
@@ -20,8 +20,17 @@ tab-tab5{
 
     color: black; 
     font-weight: bold;
+    margin-inline-start: 10px;
     
 }
+
+.divpunta{
+    align-content: flex-end;
+    float:left;
+    margin-left:5px;
+
+}
+
 
 .Eventos{
    
@@ -30,12 +39,25 @@ tab-tab5{
   
 }
 
-.card{
-    width: 60px;
-    height: 60px;
-    border-radius:150px;
-      
+.scrolling-wrapper {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+  
+    .card {
+      display: inline-block;
+      width: 120px;
+      text-align: center;
+    }
+}
 
+.progress{
+    border: 4px inset rgb(107, 194, 90);
+    background-color:rgb(2, 39, 250);
+    border-radius : 20px ;
+    width: 80px;
+    margin-right:auto;
+    margin-inline-start: 19.5px;
 }
 
 .img{
@@ -47,4 +69,9 @@ tab-tab5{
 .boton{
     border-radius:5px;
 }
+
+.welcome-card{
+    border-radius:20px;
+}
+
 
